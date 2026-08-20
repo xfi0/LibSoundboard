@@ -63,7 +63,7 @@ int AudioClipLoader::GetChannels() const {
 }
 
 AudioClip* AudioClipLoader::CreateAudioClip(const std::vector<uint8_t>& wavBytes, const std::string& clipName) const {
-    if (this->GetChannels() <= 0 || this->GetSamplingRate() <= 0 || this->GetBitsPerSample() <= 0 || this->GetBytesPerSample() <= 0 || wavBytes <= DataOffset)
+    if (this->GetChannels() <= 0 || this->GetSamplingRate() <= 0 || this->GetBitsPerSample() <= 0 || this->GetBytesPerSample() <= 0 || wavBytes.size() <= DataOffset)
         return nullptr;
 
     int dataSize = wavBytes.size() - DataOffset;
