@@ -3,6 +3,9 @@
 A minimal Unity Il2CPP Soundboard library. Made for the public, without the slop.
 ---
 
+## License
+This project is licensed under Unlicense. More information in LICENSE or at <unlicense.org> 
+
 ## Why
 Other similar projects felt bloated, and filled with AI slop. This exists to just do its job.
 
