@@ -1,5 +1,5 @@
 # LibSoundboard
----
+
 A minimal Unity Il2CPP Soundboard library. Made for the public, without the slop.
 ---
 
